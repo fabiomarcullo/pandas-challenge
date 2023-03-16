@@ -5,7 +5,7 @@ Maria, the chief Data Scientist for the city schools district, initiated a proje
 
 However, after the initial analysis was submitted to the School Board, they suspected academic dishonesty related to the math and reading grades at Thomas High School. To address this issue, the grades for Thomas High School's ninth-graders in math and reading were replaced with NaNs, while keeping the rest of the dataset unchanged. The analysis of the school district data was then repeated.
 
-![](Reports/NaN_scores.jpeg)
+(Reports/NaN_scores.jpeg)
 
 ## Results
 
