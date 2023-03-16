@@ -66,7 +66,7 @@ In terms of spending range per student, the schools whose per student budget ran
 - % Passing Reading reduced from 84% to 77% 
 - % Overall Passing reduced from 63% to 56%
 
-![ ](images/spending_range.JPG)
+![ ](Reports/spending_range.JPG)
 
 #### Scores By School Size
 
