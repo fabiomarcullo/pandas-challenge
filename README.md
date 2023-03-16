@@ -5,7 +5,7 @@ Maria, the chief Data Scientist for the city schools district, initiated a proje
 
 However, after the initial analysis was submitted to the School Board, they suspected academic dishonesty related to the math and reading grades at Thomas High School. To address this issue, the grades for Thomas High School's ninth-graders in math and reading were replaced with NaNs, while keeping the rest of the dataset unchanged. The analysis of the school district data was then repeated.
 
-(Reports/NaN_scores.jpeg)
+![ ](Reports/NaN_scores.jpeg)
 
 ## Results
 
@@ -18,7 +18,7 @@ Replacing the math and reading scores for Thomas High School's ninth-graders wit
 - The percentage of students passing reading has decreased from 86% to 85.7%. 
 - The overall passing percentage has decreased from 65% to 64.9%.
 
-![](Reports/district_summary.jpeg)
+![ ](Reports/district_summary.jpeg)
 
 
 #### School Summary
@@ -31,13 +31,13 @@ o summarize each school's performance, we calculated the total number of student
 
 These findings suggest that when the ninth-grade students of Thomas High School are removed and the school performance is recalculated based on the new student count, there is a significant decrease in Thomas High School's performance compared to other schools.
 
-![](Reports/school_summary.jpeg)
+![ ](Reports/school_summary.jpeg)
 
 #### Top 5 schools:
 
 Upon replacing the math and reading scores of Thomas High School's ninth graders with NaN and analyzing the data based on the new student count, which excludes these students, we observe that Thomas High School has dropped from its previous second place position. Instead, Griffin High School has taken its place.
 
-![](Reports/top_5_schools.jpeg)
+![ ](Reports/top_5_schools.jpeg)
 
 #### Bottom 5 schools:
 
