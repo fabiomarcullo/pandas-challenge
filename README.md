@@ -1,7 +1,7 @@
 # PyCitySchool Challenge
 
 ## Overview and Purpose
-Maria, the chief Data Scientist for the city schools district, initiated a project to analyze data on various schools' performance and provide insights to the School Board on performance trends and patterns. The analysis focused on each school's performance data, including math and reading scores, per-student budgets, school type, and school size. The insights gathered from this analysis will assist the state and district School Boards in making strategic decisions about budget allocations for the upcoming year.
+Fabio Lima, the chief Data Scientist for the city schools district, initiated a project to analyze data on various schools' performance and provide insights to the School Board on performance trends and patterns. The analysis focused on each school's performance data, including math and reading scores, per-student budgets, school type, and school size. The insights gathered from this analysis will assist the state and district School Boards in making strategic decisions about budget allocations for the upcoming year.
 
 However, after the initial analysis was submitted to the School Board, they suspected academic dishonesty related to the math and reading grades at Thomas High School. To address this issue, the grades for Thomas High School's ninth-graders in math and reading were replaced with NaNs, while keeping the rest of the dataset unchanged. The analysis of the school district data was then repeated.
 
@@ -90,7 +90,9 @@ In terms of school type, only the scores at Charter level have been affected whi
 
 #### Summary
 
-Based on our analysis, we can conclude that while Thomas High School's performance appears consistent when analyzing data for grades 10 to 12, there is a significant decline in their overall performance relative to other schools when excluding data for their 9th-grade students. As a charter school, Thomas High School's performance decline reflects a trend seen across charter schools, although their overall average performance remains higher than district schools. When considering school size, we observe a decline in performance for medium-sized schools, even though their overall average performance is better than that of larger schools. Furthermore, the data suggests that schools with the lowest budget per student have the highest overall performance on average. Cabrera High School ranks first in overall performance, while Johnson High School has the lowest overall passing rate on average.
+Based on our analysis, we can conclude that while Thomas High School's performance appears consistent when analyzing data for grades 10 to 12, there is a significant decline in their overall performance relative to other schools when excluding data for their 9th-grade students. As a charter school, Thomas High School's performance decline reflects a trend seen across charter schools, although their overall average performance remains higher than district schools. 
+
+When considering school size, we observe a decline in performance for medium-sized schools, even though their overall average performance is better than that of larger schools. Furthermore, the data suggests that schools with the lowest budget per student have the highest overall performance on average. Cabrera High School ranks first in overall performance, while Johnson High School has the lowest overall passing rate on average.
 
 
 
