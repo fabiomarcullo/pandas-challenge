@@ -5,7 +5,7 @@ Fabio Lima, the chief Data Scientist for the city schools district, initiated a 
 
 However, after the initial analysis was submitted to the School Board, they suspected academic dishonesty related to the math and reading grades at Thomas High School. To address this issue, the grades for Thomas High School's ninth-graders in math and reading were replaced with NaNs, while keeping the rest of the dataset unchanged. The analysis of the school district data was then repeated.
 
-![ ](Reports/NaN_scores.JPG)
+![ ](PyCitySchools/Reports/NaN_scores.JPG)
 
 
 ## Results
@@ -19,7 +19,7 @@ Replacing the math and reading scores for Thomas High School's ninth-graders wit
 - The percentage of students passing reading has decreased from 86% to 85.7%. 
 - The overall passing percentage has decreased from 65% to 64.9%.
 
-![ ](Reports/district_summary.JPG)
+![ ](PyCitySchools/Reports/district_summary.JPG)
 
 
 #### School Summary
@@ -32,19 +32,19 @@ o summarize each school's performance, we calculated the total number of student
 
 These findings suggest that when the ninth-grade students of Thomas High School are removed and the school performance is recalculated based on the new student count, there is a significant decrease in Thomas High School's performance compared to other schools.
 
-![ ](Reports/school_summary.JPG)
+![ ](PyCitySchools/Reports/school_summary.JPG)
 
 #### Top 5 schools:
 
 Upon replacing the math and reading scores of Thomas High School's ninth graders with NaN and analyzing the data based on the new student count, which excludes these students, we observe that Thomas High School has dropped from its previous second place position. Instead, Griffin High School has taken its place.
 
-![ ](Reports/top_5_schools.JPG)
+![ ](PyCitySchools/Reports/top_5_schools.JPG)
 
 #### Bottom 5 schools:
 
 The replacement of scores for the ninth-grade students at Thomas High School had no impact on the performance of the five lowest-performing schools.
 
-![ ](Reports/botton_5_schools.JPG)
+![ ](PyCitySchools/Reports/botton_5_schools.JPG)
 
 #### Math & Reading Scores By Grade
 
@@ -52,11 +52,11 @@ The per_school_summary_original_df dataframe examines the data after we replaced
 
 - Math by grade score shows NaN for Thomas High School 9th graders.
 
-![ ](Reports/math_by_grade.JPG)
+![ ](PyCitySchools/Reports/math_by_grade.JPG)
 
 - reading by grade also shows NaN for Thomas High School 9th graders.
 
-![ ](Reports/reading_by_grade.JPG)
+![ ](PyCitySchools/Reports/reading_by_grade.JPG)
 
 #### Scores By School Spending
 
@@ -66,7 +66,7 @@ In terms of spending range per student, the schools whose per student budget ran
 - % Passing Reading reduced from 84% to 77% 
 - % Overall Passing reduced from 63% to 56%
 
-![ ](Reports/spending_range.JPG)
+![ ](PyCitySchools/Reports/spending_range.JPG)
 
 #### Scores By School Size
 
@@ -76,7 +76,7 @@ In terms of school size, there were no changes in scores for small and large sch
 - % Passing Reading reduced from 97% to 91% 
 - % Overall Passing reduced from 91% to 85%
 
-![ ](Reports/school_size.JPG)
+![ ](PyCitySchools/Reports/school_size.JPG)
 
 #### Scores By School Type
 
@@ -86,7 +86,7 @@ In terms of school type, only the scores at Charter level have been affected whi
 - % Passing reading reduced from 97% to 93%
 - % overall Passing reduced from 90% to 87%
 
-![ ](Reports/school_type.JPG)
+![ ](PyCitySchools/Reports/school_type.JPG)
 
 #### Summary
 
